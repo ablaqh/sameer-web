@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<style>
+    footer {
+        border-radius: 10px 10px 0px 0px;
+        background-color: rgb(70, 34, 230);
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 250px;
+        padding-left: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+
+    .bi.bi-bootstrap-fill {
+        font-size: 25px;
+    }
+
+
+    .row-01 span {
+        padding-left: 20px;
+
+
+    }
+
+    .row-02 {
+        background-color: rgba(0, 0, 0, 0.219);
+        border: rgba(255, 255, 255, 0.411) solid 1px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        width: 250px;
+        padding: 15px;
+        margin-right: 250px;
+    }
+
+    .row-02 span {
+        margin-left: 10px;
+    }
+
+    .row-03 span {
+        padding-right: 10px;
+
+    }
+
+    .bi.bi-twitter {
+        border-right: solid rgba(255, 255, 255, 0.363) 2px;
+    }
+
+    .text {
+        border-right: solid rgba(255, 255, 255, 0.363) 2px;
+    }
+
+    section {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-transform: capitalize;
+    }
+
+    .heading {
+        font-size: 100px;
+        padding-top: 80px;
+        font-weight: 400px;
+
+    }
+
+    .subheading {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .info {
+        margin-top: 60px;
+
+    }
+
+    .info span {
+        margin-left: 30px;
+    }
+
+    .code {
+        background-color: rgb(212, 212, 212);
+        border: 1px darkgrey solid;
+        padding: 20px;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .docs {
+        background-color: rgb(70, 34, 230);
+        padding: 20px;
+        color: aliceblue;
+        border-radius: 5px;
+    }
+
+    .box {
+        background-image: url(Images/boot\ bg.jpg);
+
+        background-size: cover;
+        height: 800px;
+    }
+
+    .part {
+        padding-top: 60px;
+    }
+
+    .port {
+        background-color: rgb(255, 208, 88);
+        background-size: covers;
+        padding: 5px 20px 5px 20px;
+        border-radius: 20px;
+
+
+    }
+
+    .scroll {
+        display: flex;
+        justify-content: center;
+        font-family: arial;
+
+
+
+    }
+
+
+
+
+    .left,
+    .right {
+        margin-top: 30px;
+        width: 600px;
+        margin: 10px;
+
+        border: 2px solid lightgrey;
+        padding: 30px;
+        border-radius: 10px;
+
+
+    }
+
+    .boxes {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+
+    }
+
+    .box1,
+    .box2 {
+        background-color: rgb(207, 207, 207);
+        padding: 10px 350px 10px 10px;
+        border-radius: 8px;
+        border: 1px solid darkgrey;    }
+
+    .section {
+        background-color: rgb(129, 148, 255);
+        width: 100%;
+        height: 600px ;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .para {
+        background-color: rgb(255, 255, 255);
+        overflow: scroll;
+        width: 80%;
+        height: 150px;
+        align-content: center;
+        border-radius: 10px;
+        scroll-behavior:smooth
+    }
+</style>
+
+<body>
+    <footer>
+
+        <div class="row-01">
+            <Span class="bi bi-bootstrap-fill"></Span>
+            <span> Docs</span>
+            <span> Examples</span>
+            <span> Icons</span>
+            <span> Themes</span>
+            <span> Blog</span>
+
+        </div>
+
+        <div class="row-02">
+            <span class="bi bi-search"> Search</span>
+
+        </div>
+
+
+        <div class="row-03">
+            <span class="bi bi-github"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="text"> v5.3</span>
+            <span class="bi bi-brightness-high-fill"></span>
+
+        </div>
+
+    </footer>
+
+    <div class="box">
+
+        <section>
+            <div class="part"> <span class="port">Get Security Updates For Bootstrap 3 & 4 <span
+                        class="bi bi-arrow-right-short"></span></span></div>
+            <div class="logo"></div>
+            <div class="heading"> <span></span>Build fast, responsive sites <br> with Bootstrap</div>
+            <div class="subheading"> <span>Powerful, extensible, and feature-packed frontend toolkit. Build and
+                    customize <br>
+                    with Sass, utilize prebuilt grid system and components, and bring projects to life <br> <br> with
+                    powerful
+                    JavaScript plugins.</span></div>
+            <div class="info"> <span class="code"> npm i bootstrap@5.3.3 <span class="bi bi-search"></span></span>
+                <span class="docs">Read the docs </span></div>
+        </section>
+    </div>
+    <main>
+        <div class="scroll">
+            <div class="left">
+                <h1>Install via package manager</h1>
+                <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package
+                    managed installs don’t include documentation or our full build scripts. You can also use any demo
+                    from our Examples repo to quickly jumpstart Bootstrap projects.</p>
+                <div class="boxes"> <span class="box1">npm install bootstrap@5.3.3</span>
+                </div>
+                <p>Read our installation docs for more info and additional package managers.</p>
+
+            </div>
+            <div class="right">
+
+                <h1>Install via package manager</h1>
+                <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package
+                    managed installs don’t include documentation or our full build scripts. You can also use any demo
+                    from our Examples repo to quickly jumpstart Bootstrap projects.</p>
+
+                <div class="boxes"> <span class="box1">npm install bootstrap@5.3.3</span>
+                </div>
+                <p>Read our installation docs for more info and additional package managers.</p>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="section">
+        <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit ad ab eligendi recusandae fugiat minus vel placeat tempora, dolores, adipisci optio molestiae dolore. Praesentium temporibus doloremque id perferendis eum!
+        Nostrum similique eligendi ad fugit l Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt eveniet, voluptatem facilis aliquam aperiam ullam in error, repudiandae assumenda mollitia quo rerum placeat maxime vel deserunt autem repellendus! Praesentium, officiis.
+        Vero beatae assumenda obcaecati soluta possimus quos dolore autem aspernatur magnam illo, maxime illum at ducimus eius, corrupti eaque odit hic a odio ad? Rerum corrupti autem officiis ea ullam.
+        Amet vel neque fuga itaque, aut nihil dignissimos dicta reprehenderit minus officia quisquam. Omnis impedit quae voluptate. Corrupti, hic iure dolorem modi corporis placeat illo ratione a vel rerum iusto!
+        Suscipit distinctio quod animi illo ex, labore ullam itaque error accusamus commodi veritatis aspernatur voluptatum eveniet mollitia voluptas deserunt numquam inventore cum. Eveniet iste magnam saepe ad ab ea tempora.
+        Sit, adipisci voluptatum? Cumque sequi blanditiis quasi saepe autem distinctio voluptate iure dolorum exercitationem tempora tempore, repellendus amet commodi, enim neque reprehenderit nihil numquam asperiores inventore aliquam eveniet. Reprehenderit, soluta.
+        Voluptates sint minus commodi nihil, nemo qui quam placeat earum non maxime atque, dicta id debitis asperiores aliquid maiores deserunt dolore exercitationem nesciunt fuga, dolorum sequi enim? Alias, corporis blanditiis.
+        Dicta exercitationem quidem aperiam. Cum inventore eum cumque ipsum natus saepe, ab facere odit quam, quia officia animi asperiores dolorem eveniet labore non quos qui itaque nihil voluptatum dicta minus.
+        Voluptate, at laborum accusantium nam soluta eaque, quos iusto, esse iste recusandae commodi itaque accusamus unde? Reiciendis soluta, distinctio dignissimos excepturi repudiandae voluptatibus nulla nobis quibusdam maiores reprehenderit, delectus eius!
+        Enim eos assumenda quisquam soluta sint aspernatur corporis doloremque. Error esse vitae vel culpa nobis incidunt maiores odit, dolorem exercitationem veniam asperiores illo repellat facilis voluptate nisi consequuntur? Placeat, earum!
+        Tempore, asperiores fugit saepe alias repellendus tempora voluptate quis excepturi impedit consequatur debitis iste hic non dignissimos magni deserunt natus voluptates! Sint porro cum nam ipsam nostrum ducimus debitis delectus! aborum tempora consectetur dolores, aspernatur nisi nihil, error accusantium animi et tempore facere totam quae amet. At praesentium qui neque a ut aut minus libero?
+        Beatae, tenetur? Quasi nisi molestias dolorum rerum, sunt provident laborum aliquid excepturi quia minima fuga libero consectetur veniam quae modi ratione culpa praesentium eveniet, corrupti reiciendis? Assumenda quibusdam autem reprehenderit!
+        Perspiciatis dignissimos repudiandae laboriosam cupiditate id illum eos, similique, provident odit nisi magnam quas distinctio unde sint beatae necessitatibus commodi cum consequatur veritatis accusantium modi aspernatur. Praesentium assumenda obcaecati voluptatem.
+        Sunt at quas hic illum odio? Perspiciatis distinctio accusamus, ipsum cum velit delectus optio est adipisci asperiores praesentium accusantium laudantium culpa. Officia, exercitationem nesciunt? Dolor sit adipisci quaerat labore culpa!
+        Beatae reiciendis voluptatibus et deserunt nesciunt, nulla ullam cumque expedita perspiciatis, ratione maxime perferendis sint corrupti culpa laboriosam neque, quisquam impedit inventore iusto excepturi rerum ut rem aperiam fugiat. Porro.
+        Quisquam vero omnis aliquid pariatur qui at non vel voluptatum fugiat enim amet voluptas rerum delectus eligendi aspernatur, magni sit. Sapiente sequi, dicta quisquam repudiandae impedit similique expedita molestiae error.
+        Earum molestias necessitatibus cumque eveniet alias nostrum ipsam culpa ad? Ad voluptatibus omnis quasi pariatur atque recusandae dolores aspernatur vero quidem, ratione sed magni expedita iusto saepe dicta excepturi alias?
+        Ea accusamus dignissimos quaerat voluptates hic non sint sit at fuga asperiores eveniet magnam rem, provident dolor voluptas repudiandae laborum ex iste aperiam, consectetur esse consequatur modi amet tempore! Ratione.
+        Ea maxime assumenda totam soluta iure velit sapiente ab necessitatibus et eos inventore, eius quas atque tenetur itaque alias, repellendus eveniet adipisci. Amet ut possimus ab iure modi id excepturi?
+        </p>
+    </div>
+</body>
+
+</html>
